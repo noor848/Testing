@@ -7,7 +7,7 @@ We also have a separate image you can use with chromium installed to run k6 brow
 
     docker pull grafana/k6:master-with-browser
 
-run :
+Run on Windows :
 
     cat .{nameOfFile}.js | docker run -i grafana/k6 run -
 
